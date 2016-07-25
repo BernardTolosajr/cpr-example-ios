@@ -9,10 +9,25 @@
 /* Begin PBXBuildFile section */
 		ECA2F6D91D45C13E00F3AAA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA2F6D81D45C13E00F3AAA6 /* main.m */; };
 		ECA2F6DC1D45C13E00F3AAA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA2F6DB1D45C13E00F3AAA6 /* AppDelegate.m */; };
-		ECA2F6DF1D45C13E00F3AAA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA2F6DE1D45C13E00F3AAA6 /* ViewController.m */; };
+		ECA2F6DF1D45C13E00F3AAA6 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ECA2F6DE1D45C13E00F3AAA6 /* ViewController.mm */; };
 		ECA2F6E21D45C13E00F3AAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F6E01D45C13E00F3AAA6 /* Main.storyboard */; };
 		ECA2F6E41D45C13E00F3AAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F6E31D45C13E00F3AAA6 /* Assets.xcassets */; };
 		ECA2F6E71D45C13E00F3AAA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F6E51D45C13E00F3AAA6 /* LaunchScreen.storyboard */; };
+		ECA2F6EF1D45C15C00F3AAA6 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA2F6EE1D45C15C00F3AAA6 /* libexample.a */; };
+		ECA2F70B1D45C1EA00F3AAA6 /* curlbuild.h.cmake in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F6F71D45C1EA00F3AAA6 /* curlbuild.h.cmake */; };
+		ECA2F70C1D45C1EA00F3AAA6 /* curlbuild.h.dist in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F6F81D45C1EA00F3AAA6 /* curlbuild.h.dist */; };
+		ECA2F70D1D45C1EA00F3AAA6 /* curlbuild.h.in in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F6F91D45C1EA00F3AAA6 /* curlbuild.h.in */; };
+		ECA2F70E1D45C1EA00F3AAA6 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = ECA2F6FD1D45C1EA00F3AAA6 /* Makefile */; };
+		ECA2F70F1D45C1EA00F3AAA6 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F6FE1D45C1EA00F3AAA6 /* Makefile.am */; };
+		ECA2F7101D45C1EA00F3AAA6 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F6FF1D45C1EA00F3AAA6 /* Makefile.in */; };
+		ECA2F7111D45C1EA00F3AAA6 /* stamp-h2 in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F7021D45C1EA00F3AAA6 /* stamp-h2 */; };
+		ECA2F7121D45C1EA00F3AAA6 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = ECA2F7051D45C1EA00F3AAA6 /* Makefile */; };
+		ECA2F7131D45C1EA00F3AAA6 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F7061D45C1EA00F3AAA6 /* Makefile.am */; };
+		ECA2F7141D45C1EA00F3AAA6 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F7071D45C1EA00F3AAA6 /* Makefile.in */; };
+		ECA2F7151D45C1EA00F3AAA6 /* README in Resources */ = {isa = PBXBuildFile; fileRef = ECA2F7081D45C1EA00F3AAA6 /* README */; };
+		ECA2F7161D45C1EA00F3AAA6 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA2F70A1D45C1EA00F3AAA6 /* libcurl.a */; };
+		ECA2F7311D45C2FA00F3AAA6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA2F7301D45C2FA00F3AAA6 /* libz.tbd */; };
+		ECA2F7321D45C3E200F3AAA6 /* libcpr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA2F72E1D45C26900F3AAA6 /* libcpr.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +36,55 @@
 		ECA2F6DA1D45C13E00F3AAA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECA2F6DB1D45C13E00F3AAA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ECA2F6DD1D45C13E00F3AAA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ECA2F6DE1D45C13E00F3AAA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECA2F6DE1D45C13E00F3AAA6 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		ECA2F6E11D45C13E00F3AAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECA2F6E31D45C13E00F3AAA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA2F6E61D45C13E00F3AAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECA2F6E81D45C13E00F3AAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA2F6EE1D45C15C00F3AAA6 /* libexample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexample.a; sourceTree = "<group>"; };
+		ECA2F6F11D45C16A00F3AAA6 /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = example.h; sourceTree = "<group>"; };
+		ECA2F6F51D45C1EA00F3AAA6 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		ECA2F6F61D45C1EA00F3AAA6 /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
+		ECA2F6F71D45C1EA00F3AAA6 /* curlbuild.h.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.cmake; sourceTree = "<group>"; };
+		ECA2F6F81D45C1EA00F3AAA6 /* curlbuild.h.dist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.dist; sourceTree = "<group>"; };
+		ECA2F6F91D45C1EA00F3AAA6 /* curlbuild.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.in; sourceTree = "<group>"; };
+		ECA2F6FA1D45C1EA00F3AAA6 /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
+		ECA2F6FB1D45C1EA00F3AAA6 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		ECA2F6FC1D45C1EA00F3AAA6 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		ECA2F6FD1D45C1EA00F3AAA6 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		ECA2F6FE1D45C1EA00F3AAA6 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		ECA2F6FF1D45C1EA00F3AAA6 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		ECA2F7001D45C1EA00F3AAA6 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		ECA2F7011D45C1EA00F3AAA6 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		ECA2F7021D45C1EA00F3AAA6 /* stamp-h2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "stamp-h2"; sourceTree = "<group>"; };
+		ECA2F7031D45C1EA00F3AAA6 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		ECA2F7041D45C1EA00F3AAA6 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		ECA2F7051D45C1EA00F3AAA6 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		ECA2F7061D45C1EA00F3AAA6 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		ECA2F7071D45C1EA00F3AAA6 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		ECA2F7081D45C1EA00F3AAA6 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		ECA2F70A1D45C1EA00F3AAA6 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		ECA2F71A1D45C26900F3AAA6 /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		ECA2F71B1D45C26900F3AAA6 /* auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth.h; sourceTree = "<group>"; };
+		ECA2F71C1D45C26900F3AAA6 /* body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = body.h; sourceTree = "<group>"; };
+		ECA2F71D1D45C26900F3AAA6 /* cookies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cookies.h; sourceTree = "<group>"; };
+		ECA2F71E1D45C26900F3AAA6 /* cpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpr.h; sourceTree = "<group>"; };
+		ECA2F71F1D45C26900F3AAA6 /* cprtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cprtypes.h; sourceTree = "<group>"; };
+		ECA2F7201D45C26900F3AAA6 /* curlholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlholder.h; sourceTree = "<group>"; };
+		ECA2F7211D45C26900F3AAA6 /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		ECA2F7221D45C26900F3AAA6 /* digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = digest.h; sourceTree = "<group>"; };
+		ECA2F7231D45C26900F3AAA6 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		ECA2F7241D45C26900F3AAA6 /* max_redirects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = max_redirects.h; sourceTree = "<group>"; };
+		ECA2F7251D45C26900F3AAA6 /* multipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multipart.h; sourceTree = "<group>"; };
+		ECA2F7261D45C26900F3AAA6 /* parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parameters.h; sourceTree = "<group>"; };
+		ECA2F7271D45C26900F3AAA6 /* payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payload.h; sourceTree = "<group>"; };
+		ECA2F7281D45C26900F3AAA6 /* proxies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proxies.h; sourceTree = "<group>"; };
+		ECA2F7291D45C26900F3AAA6 /* response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = response.h; sourceTree = "<group>"; };
+		ECA2F72A1D45C26900F3AAA6 /* session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = session.h; sourceTree = "<group>"; };
+		ECA2F72B1D45C26900F3AAA6 /* timeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeout.h; sourceTree = "<group>"; };
+		ECA2F72C1D45C26900F3AAA6 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		ECA2F72E1D45C26900F3AAA6 /* libcpr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcpr.a; sourceTree = "<group>"; };
+		ECA2F7301D45C2FA00F3AAA6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +92,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA2F7321D45C3E200F3AAA6 /* libcpr.a in Frameworks */,
+				ECA2F7311D45C2FA00F3AAA6 /* libz.tbd in Frameworks */,
+				ECA2F6EF1D45C15C00F3AAA6 /* libexample.a in Frameworks */,
+				ECA2F7161D45C1EA00F3AAA6 /* libcurl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +105,11 @@
 		ECA2F6CB1D45C13E00F3AAA6 = {
 			isa = PBXGroup;
 			children = (
+				ECA2F7301D45C2FA00F3AAA6 /* libz.tbd */,
+				ECA2F7171D45C26900F3AAA6 /* cpr */,
+				ECA2F6F21D45C1EA00F3AAA6 /* curl-ios */,
+				ECA2F6F01D45C16A00F3AAA6 /* include */,
+				ECA2F6EE1D45C15C00F3AAA6 /* libexample.a */,
 				ECA2F6D61D45C13E00F3AAA6 /* cpr-example */,
 				ECA2F6D51D45C13E00F3AAA6 /* Products */,
 			);
@@ -61,7 +129,7 @@
 				ECA2F6DA1D45C13E00F3AAA6 /* AppDelegate.h */,
 				ECA2F6DB1D45C13E00F3AAA6 /* AppDelegate.m */,
 				ECA2F6DD1D45C13E00F3AAA6 /* ViewController.h */,
-				ECA2F6DE1D45C13E00F3AAA6 /* ViewController.m */,
+				ECA2F6DE1D45C13E00F3AAA6 /* ViewController.mm */,
 				ECA2F6E01D45C13E00F3AAA6 /* Main.storyboard */,
 				ECA2F6E31D45C13E00F3AAA6 /* Assets.xcassets */,
 				ECA2F6E51D45C13E00F3AAA6 /* LaunchScreen.storyboard */,
@@ -77,6 +145,117 @@
 				ECA2F6D81D45C13E00F3AAA6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECA2F6F01D45C16A00F3AAA6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2F6F11D45C16A00F3AAA6 /* example.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		ECA2F6F21D45C1EA00F3AAA6 /* curl-ios */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2F6F31D45C1EA00F3AAA6 /* include */,
+				ECA2F7091D45C1EA00F3AAA6 /* lib */,
+			);
+			path = "curl-ios";
+			sourceTree = "<group>";
+		};
+		ECA2F6F31D45C1EA00F3AAA6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2F6F41D45C1EA00F3AAA6 /* curl */,
+				ECA2F7051D45C1EA00F3AAA6 /* Makefile */,
+				ECA2F7061D45C1EA00F3AAA6 /* Makefile.am */,
+				ECA2F7071D45C1EA00F3AAA6 /* Makefile.in */,
+				ECA2F7081D45C1EA00F3AAA6 /* README */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		ECA2F6F41D45C1EA00F3AAA6 /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2F6F51D45C1EA00F3AAA6 /* curl.h */,
+				ECA2F6F61D45C1EA00F3AAA6 /* curlbuild.h */,
+				ECA2F6F71D45C1EA00F3AAA6 /* curlbuild.h.cmake */,
+				ECA2F6F81D45C1EA00F3AAA6 /* curlbuild.h.dist */,
+				ECA2F6F91D45C1EA00F3AAA6 /* curlbuild.h.in */,
+				ECA2F6FA1D45C1EA00F3AAA6 /* curlrules.h */,
+				ECA2F6FB1D45C1EA00F3AAA6 /* curlver.h */,
+				ECA2F6FC1D45C1EA00F3AAA6 /* easy.h */,
+				ECA2F6FD1D45C1EA00F3AAA6 /* Makefile */,
+				ECA2F6FE1D45C1EA00F3AAA6 /* Makefile.am */,
+				ECA2F6FF1D45C1EA00F3AAA6 /* Makefile.in */,
+				ECA2F7001D45C1EA00F3AAA6 /* mprintf.h */,
+				ECA2F7011D45C1EA00F3AAA6 /* multi.h */,
+				ECA2F7021D45C1EA00F3AAA6 /* stamp-h2 */,
+				ECA2F7031D45C1EA00F3AAA6 /* stdcheaders.h */,
+				ECA2F7041D45C1EA00F3AAA6 /* typecheck-gcc.h */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
+		ECA2F7091D45C1EA00F3AAA6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2F70A1D45C1EA00F3AAA6 /* libcurl.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		ECA2F7171D45C26900F3AAA6 /* cpr */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2F7181D45C26900F3AAA6 /* include */,
+				ECA2F72D1D45C26900F3AAA6 /* lib */,
+			);
+			path = cpr;
+			sourceTree = "<group>";
+		};
+		ECA2F7181D45C26900F3AAA6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2F7191D45C26900F3AAA6 /* cpr */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		ECA2F7191D45C26900F3AAA6 /* cpr */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2F71A1D45C26900F3AAA6 /* api.h */,
+				ECA2F71B1D45C26900F3AAA6 /* auth.h */,
+				ECA2F71C1D45C26900F3AAA6 /* body.h */,
+				ECA2F71D1D45C26900F3AAA6 /* cookies.h */,
+				ECA2F71E1D45C26900F3AAA6 /* cpr.h */,
+				ECA2F71F1D45C26900F3AAA6 /* cprtypes.h */,
+				ECA2F7201D45C26900F3AAA6 /* curlholder.h */,
+				ECA2F7211D45C26900F3AAA6 /* defines.h */,
+				ECA2F7221D45C26900F3AAA6 /* digest.h */,
+				ECA2F7231D45C26900F3AAA6 /* error.h */,
+				ECA2F7241D45C26900F3AAA6 /* max_redirects.h */,
+				ECA2F7251D45C26900F3AAA6 /* multipart.h */,
+				ECA2F7261D45C26900F3AAA6 /* parameters.h */,
+				ECA2F7271D45C26900F3AAA6 /* payload.h */,
+				ECA2F7281D45C26900F3AAA6 /* proxies.h */,
+				ECA2F7291D45C26900F3AAA6 /* response.h */,
+				ECA2F72A1D45C26900F3AAA6 /* session.h */,
+				ECA2F72B1D45C26900F3AAA6 /* timeout.h */,
+				ECA2F72C1D45C26900F3AAA6 /* util.h */,
+			);
+			path = cpr;
+			sourceTree = "<group>";
+		};
+		ECA2F72D1D45C26900F3AAA6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2F72E1D45C26900F3AAA6 /* libcpr.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +315,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA2F7151D45C1EA00F3AAA6 /* README in Resources */,
+				ECA2F70B1D45C1EA00F3AAA6 /* curlbuild.h.cmake in Resources */,
+				ECA2F70F1D45C1EA00F3AAA6 /* Makefile.am in Resources */,
 				ECA2F6E71D45C13E00F3AAA6 /* LaunchScreen.storyboard in Resources */,
 				ECA2F6E41D45C13E00F3AAA6 /* Assets.xcassets in Resources */,
 				ECA2F6E21D45C13E00F3AAA6 /* Main.storyboard in Resources */,
+				ECA2F7141D45C1EA00F3AAA6 /* Makefile.in in Resources */,
+				ECA2F70C1D45C1EA00F3AAA6 /* curlbuild.h.dist in Resources */,
+				ECA2F7101D45C1EA00F3AAA6 /* Makefile.in in Resources */,
+				ECA2F7131D45C1EA00F3AAA6 /* Makefile.am in Resources */,
+				ECA2F70D1D45C1EA00F3AAA6 /* curlbuild.h.in in Resources */,
+				ECA2F7111D45C1EA00F3AAA6 /* stamp-h2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +337,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA2F6DF1D45C13E00F3AAA6 /* ViewController.m in Sources */,
+				ECA2F7121D45C1EA00F3AAA6 /* Makefile in Sources */,
+				ECA2F6DF1D45C13E00F3AAA6 /* ViewController.mm in Sources */,
 				ECA2F6DC1D45C13E00F3AAA6 /* AppDelegate.m in Sources */,
+				ECA2F70E1D45C1EA00F3AAA6 /* Makefile in Sources */,
 				ECA2F6D91D45C13E00F3AAA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,8 +451,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/curl-ios/include",
+					"$(PROJECT_DIR)/cpr/include",
+				);
 				INFOPLIST_FILE = "cpr-example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/curl-ios/lib",
+					"$(PROJECT_DIR)/cpr/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "globe.cpr-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -272,8 +472,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/curl-ios/include",
+					"$(PROJECT_DIR)/cpr/include",
+				);
 				INFOPLIST_FILE = "cpr-example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/curl-ios/lib",
+					"$(PROJECT_DIR)/cpr/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "globe.cpr-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
